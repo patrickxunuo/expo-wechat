@@ -15,16 +15,32 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "ca.emonster.youshihui",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3f2d602-1f84-4383-bf6b-a0a0ef0152f3"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d3f2d602-1f84-4383-bf6b-a0a0ef0152f3",
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
     }
   }
 }

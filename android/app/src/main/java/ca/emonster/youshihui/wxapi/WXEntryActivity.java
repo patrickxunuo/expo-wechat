@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import com.wechatlib.WeChatLibModule;
 
-public class WXPayEntryActivity extends Activity {
+public class WXEntryActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
